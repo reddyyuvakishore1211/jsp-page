@@ -1,0 +1,149 @@
+body
+{
+	margin:0px;
+}
+header
+{
+	background:linear-gradient(45deg,darkslategrey,rgb(20,139,248));
+	height:80px;
+
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+	flex-direction:row;
+}
+header h1
+{
+	margin:0px;
+	color:white;
+	margin-left:10px;
+}
+
+header #links a
+{
+	color:white;
+	text-decoration:none;
+	margin-right:16px;
+	padding:6px 15px;
+	border-radius:20px;
+	box-shadow:0 0 10px white;
+}
+
+header #links a:hover
+{
+	background-color:darkslategrey;
+}
+
+.fa
+{
+	margin-right:4px;
+}
+
+/*---Landing Page---*/
+#landing
+{
+	background:white url('../images/student1.jpg') no-repeat scroll center;
+	background-size:cover;
+	height:100vh;
+}
+#landing #wrapper h1
+{
+	margin:0px;
+}
+#wrapper
+{
+	background-color:rgba(27,143,250,0.4);
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	color:white;
+	align-items:center;
+	justify-content:center;
+}
+#wrapper p
+{
+	font-size:17px;
+	text-shadow:0 0 10px darkblue;
+}
+
+button	
+{
+	background:linear-gradient(45deg,darkslategrey,rgb(20,139,248));
+	outline:none;
+	border:none;
+	box-shadow:0 0 10px white;
+	padding:10px 25px;
+	color:white;
+	border-radius:20px;
+}
+
+button:hover
+{
+	
+	cursor:pointer;
+}
+
+/*---Intro Section---*/
+#intro
+{
+	background:linear-gradient(45deg,darkslategrey,rgb(20,139,248));
+	text-align:center;
+	padding:20px;
+	color:white;
+}
+#intro h1
+{
+	margin:0px;
+}
+
+/*---Main-Content---*/
+
+#main-content
+{
+	margin:10px;
+	text-align:center;
+}
+#main-content .main-content-article
+{
+	width:250px;
+	display:inline-grid;
+	border-radius:30px 0px 30px 0px;
+	box-shadow:0 0 10px blue;
+	margin:6px;
+	text-align:center;
+}
+
+
+
+#main-content .main-content-article img
+{
+	width:inherit;
+	height:160px;
+}
+
+
+/*---Footer----*/
+footer
+{
+	background:linear-gradient(45deg,darkslategrey,rgb(20,139,248));
+	height:120px;
+	color:white;
+	text-align:center;
+	padding:5px;
+}
+
+@media(min-width:0px) and (max-width:900px)
+{
+	header
+	{
+		flex-direction:column;
+		height:100px;
+	}
+	header #links
+	{
+		margin-bottom:17px;
+	}
+}
+
+
